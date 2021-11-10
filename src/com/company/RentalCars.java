@@ -21,6 +21,7 @@ public class RentalCars {
     }
 
     public String toString(){
-        return ("Brand: " + brand + "\nModel: " + model + "\nFueltype: " + fuelType + "\nRegistration number: " + regNum + "\nRegistration date: " + regDate + "Kilometers driven: " + odometer);
+        return ("Brand: " + brand + "\nModel: " + model + "\nFueltype: " + fuelType + "\nRegistration number: " + regNum
+                + "\nRegistration date: " + regDate + "Kilometers driven: " + odometer);
     }
 }

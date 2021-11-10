@@ -13,4 +13,10 @@ public class FamilyCar extends RentalCars{
         cruiseControl = cc;
         seats = s;
     }
+
+    public String toString() {
+        return ("Brand: " + brand + "\nModel: " + model + "\nFueltype: " + fuelType + "\nRegistration number: " + regNum
+                + "\nRegistration date: " + regDate + "\nKilometers driven: " + odometer + "\nManual gear: " + manualGear
+                + "\nAir condition: " + airCondition + "\nCruise control: " + cruiseControl + "\nSeats: " + seats);
+    }
 }
