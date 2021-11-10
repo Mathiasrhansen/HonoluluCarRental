@@ -11,7 +11,7 @@ public class Main {
         carList.add(porsche);
         FamilyCar nissan = new FamilyCar("Nissan", "Quest", "Petrol", "HF38663", "13/08-2017", 11000, false, true, false, 7);
         carList.add(nissan);
-        FamilyCar ford = new FamilyCar("Ford", "S-Max", "Diesel", "CV13345", "16/11-2020", 28425, false, true, true, 7);
+        FamilyCar ford = new FamilyCar("Ford", "S-Max", "Diesel", "CV17345", "16/11-2020", 28425, false, true, true, 7);
         carList.add(ford);
 
         for (RentalCars rentalCars : carList) {
