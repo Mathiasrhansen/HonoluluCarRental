@@ -4,14 +4,14 @@ public class RentalCars {
     String brand;
     String model;
     String fuelType;
-    int regNum;
+    String regNum;
     String regDate;
     int odometer;
 
     public  RentalCars(){
     }
 
-    public RentalCars (String b, String m, String fuel, int r, String rd, int o){
+    public RentalCars (String b, String m, String fuel, String r, String rd, int o){
         brand = b;
         model = m;
         fuelType = fuel;
