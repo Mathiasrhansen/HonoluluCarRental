@@ -10,6 +10,7 @@ public class RentalCars {
 
     public  RentalCars(){
     }
+
     public RentalCars (String b, String m, String fuel, int r, String rd, int o){
         brand = b;
         model = m;
