@@ -14,6 +14,7 @@ public class FamilyCar extends RentalCars{
         seats = s;
     }
 
+    @Override
     public String toString() {
         return ("Brand: " + brand + "\nModel: " + model + "\nFueltype: " + fuelType + "\nRegistration number: " + regNum
                 + "\nRegistration date: " + regDate + "\nKilometers driven: " + odometer + "\nManual gear: " + manualGear
