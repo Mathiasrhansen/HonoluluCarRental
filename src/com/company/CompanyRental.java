@@ -13,4 +13,12 @@ public class CompanyRental extends RentalInfo{
         companyPhoneNum = cpn;
         companyRegNum = crn;
     }
+
+    @Override
+    public String toString() {
+        return ("Name: " + name + "\nAddress: " + address + "\nZip code: " + postNum + "\nCity: " + city
+                + "\nMobile phone: " + mobilePhone + "\nPhone: " + phone + "\nEmail: " + email
+                + "\nCompany name: " + companyName + "\nCompany address: " + companyAddress
+                + "\nCompany phone number: " + companyPhoneNum + "\nCompany registration number: " + companyRegNum);
+    }
 }

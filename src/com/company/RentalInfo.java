@@ -21,4 +21,9 @@ public class RentalInfo {
      phone = p;
      email = e;
     }
+
+    public String toString() {
+        return ("Name: " + name + "\nAddress: " + address + "\nZip code: " + postNum + "\nCity: " + city
+                + "\nMobile phone: " + mobilePhone + "\nPhone: " + phone + "\nEmail: " + email);
+    }
 }
