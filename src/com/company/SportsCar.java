@@ -9,4 +9,9 @@ public class SportsCar extends  RentalCars{
         manualGear = mGear;
         horsePower = hp;
     }
+
+    @Override
+    public String toString(){
+        return ("Brand: " + brand + "\nModel: " + model + "\nFueltype: " + fuelType + "\nRegistration number: " + regNum + "\nRegistration date: " + regDate + "Kilometers driven: " + odometer + "\nHorsepower: " + horsePower + "\nManual gear: " + manualGear);
+    }
 }
