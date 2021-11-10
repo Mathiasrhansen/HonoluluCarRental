@@ -11,4 +11,7 @@ public class RentalCars {
     public  RentalCars(){
 
     }
+    public RentalCars (String brand){
+
+    }
 }
