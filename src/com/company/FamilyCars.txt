@@ -1,0 +1,22 @@
+Brand: Nissan
+Model: Quest
+Fueltype: Petrol
+Registration number: HF38663
+Registration date: 13/08-2017
+Kilometers driven: 11000
+Manual gear: false
+Air condition: true
+Cruise control: false
+Seats: 7
+
+Brand: Ford
+Model: S-Max
+Fueltype: Diesel
+Registration number: CV17345
+Registration date: 16/11-2020
+Kilometers driven: 28425
+Manual gear: false
+Air condition: true
+Cruise control: true
+Seats: 7
+

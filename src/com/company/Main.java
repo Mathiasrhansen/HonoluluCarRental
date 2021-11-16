@@ -27,8 +27,7 @@ public class Main {
         familyCarList.add(ford);
 
         SportsCar custom = SportsCar.newSportsCarEntry(input);
-        sportsCarList.add(custom);
-        saveSportsCarsToFile(sportsCarList);
+        appendSportsCars(custom);
 
 
         /*System.out.println("-------------------------------------");
@@ -93,7 +92,7 @@ public class Main {
             boolean manualGear = custom.manualGear;
             int horsePower = custom.horsePower;
 
-            out.write(brand + model + fuelType + regNum + regDate + odometer + manualGear + horsePower + "\n");
+            out.write("Brand: " + brand+ "\nModel: " + model + "\nFuel type: " + fuelType + "\nRegistration number: " + regNum + "\nRegistration date: " + regDate + "\nKilometers driven: " + odometer + "\nManual gear: " +manualGear + "\nHorsepower: " + horsePower + "\n\n");
             out.close();
         }catch (Exception er){
             System.err.println("Error while printing" + er.getMessage());

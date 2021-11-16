@@ -1,0 +1,17 @@
+Brand: Porsche
+Model: 911
+Fuel type: Petrol
+Registration number: GW40958
+Registration date: 20/05-2020
+Kilometers driven: 3500
+Horsepower: 420
+Manual gear: true
+
+Brand: Sot
+Model: da
+Fuel type: os
+Registration number: e3d
+Registration date: 201r
+Kilometers driven: 2012
+Manual gear: true
+Horsepower: 401
