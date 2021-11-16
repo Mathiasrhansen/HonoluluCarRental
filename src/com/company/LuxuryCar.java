@@ -18,7 +18,7 @@ public class LuxuryCar extends RentalCars{
 
     @Override
     public String toString(){
-        return ("Brand: " + brand + "\nModel: " + model + "\nFueltype: " + fuelType + "\nRegistration number: " + regNum
+        return ("Brand: " + brand + "\nModel: " + model + "\nFuel type: " + fuelType + "\nRegistration number: " + regNum
                 + "\nRegistration date: " + regDate + "Kilometers driven: " + odometer + "\nCCM: " + ccm
                 + "\nAutomatic gear: " + automaticGear + "\nAircondition: " + airCondition + "\nCruise control: "
                 + cruiseControl + "\nLeather seats: " + leatherSeats);
