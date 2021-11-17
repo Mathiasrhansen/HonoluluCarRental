@@ -125,14 +125,39 @@ public class Main {
                         printLuxuryCarList(luxuryCarList);
                         break;
                     }
+
+                    else{
+                        System.out.println("Wrong input\n");
+                    }
                 case 3:
                     clearScreen();
                     entryRentalMenu();
-                    break;
+                    int ans4 = input.nextInt();
+                    if (ans4 == 1){
+                        PrivateRental customRental = PrivateRental.newPrivateRentalEntry(input);
+                        rentalList.add(customRental);
+                        privateRentalList.add(customRental);
+                        savePrivateRentalToFile(privateRentalList);
+                    }
+
+                    if (ans4 == 2){
+                        //company rental
+                    }
+                    else{
+                        System.out.println("Wrong input\n");
+                    }
 
                 case 4:
                     clearScreen();
                     printRentalMenu();
+                    int ans5 = input.nextInt();
+                    if (ans5 == 1){
+                        System.out.println();
+                    }
+
+                    if (ans5 == 2){
+                        printPrivateRentalList(privateRentalList);
+                    }
                 }
             }
     }
@@ -244,6 +269,13 @@ public class Main {
         PrintStream write = new PrintStream("C:\\Users\\Mathi\\OneDrive\\Skrivebord\\IntelliJ\\Honolulu Car Rental\\src\\com\\company\\LuxuryCars.txt");
         for (LuxuryCar luxuryCar: luxuryCarList){
             write.println(luxuryCar + "\n");
+        }
+    }
+
+    public static void savePrivateRentalToFile(ArrayList<PrivateRental> privateRentalList)throws FileNotFoundException{
+        PrintStream write = new PrintStream("C:\\Users\\Mathi\\OneDrive\\Skrivebord\\IntelliJ\\Honolulu Car Rental\\src\\com\\company\\PrivateRentals.txt");
+        for (PrivateRental privateRental: privateRentalList){
+            write.println(privateRental + "\n");
         }
     }
 
