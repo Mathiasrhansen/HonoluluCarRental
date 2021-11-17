@@ -6,3 +6,13 @@ Registration date: 20/05-2020
 Kilometers driven: 3500
 Horsepower: 420
 Manual gear: true
+
+Brand: Corvette
+Model: ZR1
+Fuel type: Petrol
+Registration number: MD30951
+Registration date: 05/01-2019
+Kilometers driven: 3200
+Horsepower: 755
+Manual gear: true
+

@@ -25,9 +25,9 @@ public class SportsCar extends  RentalCars{
         String brand = input.next();
         System.out.println("What model is the car?");
         String model = input.next();
-        System.out.println("Is it diesel or petrol");
+        System.out.println("Is it diesel or petrol?");
         String fuelType = input.next();
-        System.out.println("What is the registration-number");
+        System.out.println("What is the registration-number?");
         String regNum = input.next();
         System.out.println("What date what it registered? (DD/MM-YYYY)");
         String regDate = input.next();
